@@ -377,7 +377,7 @@ form button a:hover{
 
 .travel-destination{
     background: #F2EFE9;
-    padding-inline: 11rem;
+    padding-inline: 9rem;
     padding-block: 6rem;
 }
 
@@ -414,7 +414,7 @@ form button a:hover{
 
 .travel-destination .travel-content img{
     height: 260px;
-    width: 390px;
+    width: 500px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     object-fit: cover;
