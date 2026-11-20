@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/css/index.css">
+    <link rel="stylesheet" href="../styles/css/destinations.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
     <title>Lakbay Isla Travel Co.</title>
 </head>
@@ -11,7 +11,7 @@
     <header>
         <div class="navigation">
             <div class="nav-title">
-                <a href="#">
+                <a href="index.html">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path fill="currentColor" d="M12 10.9c-.61 0-1.1.49-1.1 1.1s.49 1.1 1.1 1.1c.61 0 1.1-.49 1.1-1.1s-.49-1.1-1.1-1.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z">
@@ -29,16 +29,16 @@
 
             <nav>
                 <ul>
-                    <li id="active"><a href="#" >Home</a></li>
-                    <li><a href="#">Destinations</a></li>
-                    <li><a href="#">Travel Packages</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li id="active"><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="packages.html">Travel Packages</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
 
             <div class="inquiry">
-                <a href="#">
+                <a href="contact.html">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path fill="currentColor" d="M20.56 3.17c-.29-.2-.67-.23-.99-.08l-17 8.01c-.36.17-.58.53-.57.92c0 .39.24.75.6.9l3.36 1.47L16 8l-7 8v6l5.46-3.9l4.14 1.81c.13.06.26.08.4.08c.18 0 .36-.05.52-.15a.99.99 0 0 0 .48-.79l1-15c.02-.35-.14-.69-.43-.89Z" />
@@ -58,7 +58,7 @@
                         <path d="M8 4a4 4 0 1 1 0 8a4 4 0 0 1 0-8" />
                         <path d="M10 3h3v3l2 2l-2 2v3h-3l-2 2l-2-2H3v-3L1 8l2-2V3h3l2-2zM8 3a5 5 0 1 0 0 10A5 5 0 0 0 8 3" />
                     </g>
-                </svg> <span>DISCOVER CALAPAN & ISLAND PARADISE</span>
+                </svg> <span>DISCOVER CALAPAN &amp; ISLAND PARADISE</span>
             </div>
 
             <h1>Discover the Unspoiled Magic of the <br> Philippine Islands</h1>
@@ -66,7 +66,7 @@
 
             <div class="explore-travel">
                 <div class="explore">
-                    <a href="#">
+                    <a href="destinations.html">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path fill="currentColor" d="M12 10.9c-.61 0-1.1.49-1.1 1.1s.49 1.1 1.1 1.1c.61 0 1.1-.49 1.1-1.1s-.49-1.1-1.1-1.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z">
@@ -80,7 +80,7 @@
                 </div>
 
                 <div class="travel">
-                    <a href="#">
+                    <a href="packages.html">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
                             <path d="M0 0h16v16H0z" fill="none" />
                             <path fill="currentColor" fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z" />
@@ -90,45 +90,38 @@
                 </div>
             </div>
 
-            <form action="">
+            <form action="packages.html" method="get">
                 <div class="destination">
-                    <label for="Destinations">DESTINATION</label><br>
+                    <label for="destination">DESTINATION</label><br>
                     <select name="Destinations" id="destination">
                         <option value="">All Destinations</option>
-                        <option value="">Puerto Galera</option>
-                        <option value="">Apo Reef Sanctuary</option>
-                        <option value="">Mindoro Nature Trails</option>
+                        <option value="puerto-galera">Puerto Galera</option>
+                        <option value="apo-reef">Apo Reef Sanctuary</option>
+                        <option value="mindoro-nature">Mindoro Nature Trails</option>
                     </select>
                 </div>
-                
+
                 <div class="duration">
-                    <label for="Trip">TRIP DURATION</label><br>
+                    <label for="trip-duration">TRIP DURATION</label><br>
                     <select name="Trip" id="trip-duration">
-                        <option value="" >Any Duration</option>
-                        <option value="">1 Day Eco Tour</option>
-                        <option value="">2 Days / 1 Night</option>
-                        <option value="">3 Days / 2 Nights</option>
+                        <option value="">Any Duration</option>
+                        <option value="1-day">1 Day Eco Tour</option>
+                        <option value="2d1n">2 Days / 1 Night</option>
+                        <option value="3d2n">3 Days / 2 Nights</option>
                     </select>
                 </div>
 
                 <div class="budget">
                     <label for="budget">BUDGET TARGET</label><br>
-                    <select name="budget" id="">
+                    <select name="budget" id="budget">
                         <option value="">All Price Ranges</option>
-                        <option value="">Under &#8369;3500</option>
-                        <option value="">&#8369;3,500 - &#8369;5,000</option>
-                        <option value="">&#8369;5,000+</option>
+                        <option value="under-3500">Under &#8369;3,500</option>
+                        <option value="3500-5000">&#8369;3,500 - &#8369;5,000</option>
+                        <option value="5000-plus">&#8369;5,000+</option>
                     </select>
                 </div>
 
-                <button type="submit">
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                               <path d="M0 0h24v24H0z" fill="none" />
-                            <path fill="currentColor" fill-rule="evenodd" d="M14.385 15.446a6.751 6.751 0 1 1 1.06-1.06l5.156 5.155a.75.75 0 1 1-1.06 1.06zM6.46 13.884a5.25 5.25 0 1 1 7.43-.005l-.005.005l-.005.004a5.25 5.25 0 0 1-7.42-.004" clip-rule="evenodd" />
-                        </svg> Search
-                    </a>
-                </button>
+                <button type="submit">Search</button>
             </form>
         </section>
 
@@ -136,9 +129,9 @@
             <div class="information">
                 <div class="main-info">
                     <span>WELCOME TO LAKBAY ISLA</span>
-                    <h2>Your Gateway to Mindoro & Beyond Since 2020</h2>
+                    <h2>Your Gateway to Mindoro &amp; Beyond Since 2020</h2>
                     <p>Founded in <strong>Calapan City, Oriental Mindoro,</strong> Lakbay Isla Travel Co. helps adventure seekers, families, and couples discover prestines beaches, vibrant marine sanctuaries, and lush mountain trails with ease.</p>
-                    <p>We believe  travel planning should be effortless and transparent. Our local travel specialist coordinate  seamless itineraries, eco-friendly excursions, and trusted accomodations so you can create unforgettable memories.</p>
+                    <p>We believe travel planning should be effortless and transparent. Our local travel specialist coordinate seamless itineraries, eco-friendly excursions, and trusted accomodations so you can create unforgettable memories.</p>
                 </div>
                 <div class="hosted-expert">
                     <div class="expert">
@@ -149,7 +142,7 @@
                     <div class="hosted">
                         <p>5,000+</p>
                         <span>Happy Travelers Hosted</span>
-                </div>
+                    </div>
                 </div>
             </div>
 
@@ -165,43 +158,43 @@
 
             <div class="section-maintitle">
                 <h2>Feature Travel Destinations</h2>
-                <a href="#">View All Destinations &rarr;</a>
+                <a href="destinations.html">View All Destinations &rarr;</a>
             </div>
 
             <div class="travel-content">
                 <div class="oriental-mindoro">
                     <div class="content-img">
-                       <img src="assets/images/lakbay-isla-img/Puerto Galera Cove.jpg" alt="Puerto Galera Cove"> 
+                        <img src="assets/images/lakbay-isla-img/Puerto Galera Cove.jpg" alt="Puerto Galera Cove">
                     </div>
 
                     <div class="content-details">
                         <h3>Puerto Galera Cove</h3>
                         <p>Famous for crystal-clear beaches, vibrant under water coral life, and bustling White Beach entertainment...</p>
-                        <a href="#">Explore Puerto Galera &gt;</a>
+                        <a href="destinations.html">Explore Puerto Galera &gt;</a>
                     </div>
                 </div>
 
                 <div class="occidental-mindoro">
                     <div class="content-img">
-                       <img src="assets/images/lakbay-isla-img/Apo Reef Natural Park.jpg" alt="Apo Reef Natural Park"> 
+                        <img src="assets/images/lakbay-isla-img/Apo Reef Natural Park.jpg" alt="Apo Reef Natural Park">
                     </div>
 
                     <div class="content-details">
                         <h3>Apo Reef Natural Park</h3>
-                        <p>The world's second-largest contigous coral reef system, offering world-class diving and sea turtle...    </p>
-                        <a href="#">Explore Apo Reef &gt;</a>
+                        <p>The world's second-largest contigous coral reef system, offering world-class diving and sea turtle...</p>
+                        <a href="destinations.html">Explore Apo Reef &gt;</a>
                     </div>
                 </div>
 
                 <div class="mindoro-nature">
                     <div class="content-img">
-                       <img src="assets/images/lakbay-isla-img/Mindoro Nature & Waterfalls.jpg" alt="Mindoro Nature & Waterfalls"> 
+                        <img src="assets/images/lakbay-isla-img/Mindoro Nature & Waterfalls.jpg" alt="Mindoro Nature & Waterfalls">
                     </div>
 
                     <div class="content-details">
-                        <h3>Mindoro Nature & Waterfalls</h3>
-                        <p>The world's second-largest contigous coral reef system, offering world-class diving and sea turtle...    </p>
-                        <a href="#">Explore Apo Reef &gt;</a>
+                        <h3>Mindoro Nature &amp; Waterfalls</h3>
+                        <p>Lush highlands, refreshing waterfall cascades, and local cultural stops across Mindoro's interior...</p>
+                        <a href="destinations.html">Explore Nature Trails &gt;</a>
                     </div>
                 </div>
             </div>
@@ -218,21 +211,12 @@
                 <!-- PUERTO GALERA, ORIENTAL MINDORO -->
                 <div class="popular-card">
                     <div class="card-img">
-                        <img src="assets/images/lakbay-isla-img/Puerto Galera Island Escape.jpg" alt="Puerto Galera Cove">
+                        <img src="assets/images/lakbay-isla-img/Puerto Galera Island Escape.jpg" alt="Puerto Galera Island Escape">
                     </div>
 
                     <div class="card-details">
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <g fill="none">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 22.39v-10.4" />
-                                    <circle cx="12" cy="6.87" r="5.13" fill="currentColor" opacity=".2" transform="rotate(90 12 6.87)" />
-                                    <circle cx="12" cy="6.87" r="5.13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="rotate(90 12 6.87)" />
-                                </g>
-                            </svg>
-                            PUERTO GALERA, ORIENTAL MINDORO
-                        </span>
+                        <span>PUERTO GALERA, ORIENTAL MINDORO &middot; 3 DAYS / 2 NIGHTS</span>
+                        <div class="card-price">&#8369;4,500 <span>/ person</span></div>
                         <h3>Puerto Galera Island Escape</h3>
                         <p>Beach relaxation, island scenery, snorkeling opportunities, and local dining.</p>
 
@@ -242,74 +226,47 @@
                             <p>&check; Island Hopping Boat</p>
                             <span>+more</span>
                         </div>
-                    </div>
 
-                    <div class="card-btn">
-                        <a href="#">View Package Details
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7" />
-                            </svg>
-                        </a>
+                        <div class="card-btn">
+                            <a href="package-details.html">View Package Details &rarr;</a>
+                        </div>
                     </div>
                 </div>
 
                 <!-- APO REEF NATURAL PARK, MINDORO -->
                 <div class="popular-card">
                     <div class="card-img">
-                        <img src="assets/images/lakbay-isla-img/Apo Reef Adventure.jpg" alt="Puerto Galera Cove">
+                        <img src="assets/images/lakbay-isla-img/Apo Reef Adventure.jpg" alt="Apo Reef Adventure">
                     </div>
 
                     <div class="card-details">
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <g fill="none">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 22.39v-10.4" />
-                                    <circle cx="12" cy="6.87" r="5.13" fill="currentColor" opacity=".2" transform="rotate(90 12 6.87)" />
-                                    <circle cx="12" cy="6.87" r="5.13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="rotate(90 12 6.87)" />
-                                </g>
-                            </svg> 
-                            APO REEF NATURAL PARK, MINDORO
-                        </span>
+                        <span>APO REEF NATURAL PARK, MINDORO &middot; 2 DAYS / 1 NIGHT</span>
+                        <div class="card-price">&#8369;6,200 <span>/ person</span></div>
                         <h3>Apo Reef Adventure</h3>
                         <p>A marine adventure featuring clear waters, snorkeling opportunities, and island exploration.</p>
 
                         <div class="card-info">
-                            <p>&check; Boat Transfers & Camping</p>
+                            <p>&check; Boat Transfers &amp; Camping</p>
                             <p>&check; All Meals Onboard/Island</p>
-                            <p>&check; Snokeling & Sanctuary Fees</p>
+                            <p>&check; Snokeling &amp; Sanctuary Fees</p>
                             <span>+more</span>
                         </div>
 
                         <div class="card-btn">
-                            <a href="#">View Package Details
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                    <path d="M0 0h24v24H0z" fill="none" />
-                                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7" />
-                                </svg>
-                            </a>
+                            <a href="package-details.html">View Package Details &rarr;</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- MINDORO NATURE DISCOVERY -->
                 <div class="popular-card">
                     <div class="card-img">
-                        <img src="assets/images/lakbay-isla-img/Mindoro Nature Discovery.jpg" alt="Puerto Galera Cove">
+                        <img src="assets/images/lakbay-isla-img/Mindoro Nature Discovery.jpg" alt="Mindoro Nature Discovery">
                     </div>
 
                     <div class="card-details">
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <g fill="none">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 22.39v-10.4" />
-                                    <circle cx="12" cy="6.87" r="5.13" fill="currentColor" opacity=".2" transform="rotate(90 12 6.87)" />
-                                    <circle cx="12" cy="6.87" r="5.13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="rotate(90 12 6.87)" />
-                                </g>
-                            </svg> 
-                            CENTRAL MINDORO & CALAPAN FOOTHILLS
-                        </span>
+                        <span>CENTRAL MINDORO &amp; CALAPAN FOOTHILLS &middot; 2 DAYS / 1 NIGHT</span>
+                        <div class="card-price">&#8369;3,200 <span>/ person</span></div>
                         <h3>Mindoro Nature Discovery</h3>
                         <p>A nature-focused gateway featuring scenic landscapes, waterfalls, and local cultural experiences.</p>
 
@@ -321,21 +278,95 @@
                         </div>
 
                         <div class="card-btn">
-                            <a href="#">View Package Details
-                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                    <path d="M0 0h24v24H0z" fill="none" />
-                                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7" />
-                                </svg>
-                            </a>
+                            <a href="package-details.html">View Package Details &rarr;</a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY TRAVEL WITH US -->
+        <section class="why-travel">
+            <div class="section-title">
+                <span>WHY LAKBAY ISLA</span>
+                <h2>Reasons to Travel With Us</h2>
+                <p>Welcoming, modern, and trustworthy planning for every kind of getaway.</p>
+            </div>
+
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <h3>Local Mindoro Expertise</h3>
+                    <p>Based in Calapan City since 2020 with trusted boat operators, eco-lodges, and local guides.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Clear Package Inclusions</h3>
+                    <p>Transparent per-person rates with clear schedules, boat transfers, and activity highlights.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Every Traveler Welcome</h3>
+                    <p>Tailored trips for friend barkadas, families with kids, couples, and first-time island explorers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CUSTOMER TESTIMONIALS -->
+        <section class="testimonials-section">
+            <div class="section-title">
+                <span>TRAVELER STORIES</span>
+                <h2>What Our Guests Say</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"Our Puerto Galera trip was smooth from arrival to departure. Everything was clearly laid out and stress-free."</p>
+                    <h4>Camille R.</h4>
+                    <span>Barkada Getaway &middot; Puerto Galera</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Apo Reef felt like another world. The crew kept our group safe and helped us spot sea turtles all morning."</p>
+                    <h4>Marco &amp; Bea</h4>
+                    <span>Couples Adventure &middot; Apo Reef</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Great waterfalls and friendly local guides. A refreshing weekend escape for our family."</p>
+                    <h4>Lito D.</h4>
+                    <span>Family Trip &middot; Mindoro Nature</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- FINAL RESERVATION INQUIRY CTA -->
+        <section class="cta-banner">
+            <div class="cta-box">
+                <span>READY FOR YOUR NEXT ISLAND ESCAPE?</span>
+                <h2>Plan Your Mindoro Adventure With Lakbay Isla</h2>
+                <p>Have questions about dates, group size, or inclusions? Send a reservation inquiry and our Calapan team will assist you.</p>
+                <div class="cta-actions">
+                    <a href="contact.html" class="cta-primary">Send Reservation Inquiry</a>
+                    <a href="packages.html" class="cta-secondary">Compare All Packages</a>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>LAKBAY ISLA TRAVEL CO.</h3>
+                <p>Calapan City, Oriental Mindoro, Philippines &middot; Founded 2020</p>
+                <p>hello@lakbayisla.example &middot; +63 900 000 0000</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="packages.html">Travel Packages</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Prototype sample data for Lakbay Isla Travel Co. All prices and contact details are fictional examples.</p>
+        </div>
     </footer>
 </body>
 </html>
