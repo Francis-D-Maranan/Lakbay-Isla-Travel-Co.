@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <title>Contact Us - Lakbay Isla Travel Co.</title>
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <div class="nav-title">
+                <a href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path fill="currentColor" d="M12 10.9c-.61 0-1.1.49-1.1 1.1s.49 1.1 1.1 1.1c.61 0 1.1-.49 1.1-1.1s-.49-1.1-1.1-1.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z" />
+                    </svg>
+                </a>
+                <div class="main-title">
+                    <h1>LAKBAY ISLA</h1>
+                    <span>TRAVEL CO. ORIENTAL MINDORO</span>
+                </div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="packages.html">Travel Packages</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li id="active"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="inquiry">
+                <a href="contact.html">Book Inquiry</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <span>RESERVATION INQUIRIES</span>
+            <h1>Contact Lakbay Isla Travel Co.</h1>
+            <p>Reach out to ask about package availability, dates, or group trips.</p>
+        </section>
+
+        <section class="contact-layout">
+            <div class="contact-info-card">
+                <span>OFFICE DETAILS</span>
+                <h2>Get in Touch</h2>
+                <p><strong>Company:</strong> Lakbay Isla Travel Co.</p>
+                <p><strong>Location:</strong> Calapan City, Oriental Mindoro, Philippines</p>
+                <p><strong>Email:</strong> hello@lakbayisla.example</p>
+                <p><strong>Phone:</strong> +63 900 000 0000</p>
+                <p class="contact-note">Fictional contact details used for this HTML/CSS front-end prototype.</p>
+            </div>
+
+            <form class="inquiry-form" action="#" method="post">
+                <h2>Reservation Inquiry Form</h2>
+
+                <div class="field-group">
+                    <label for="full-name">FULL NAME</label>
+                    <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="field-group">
+                    <label for="email-addr">EMAIL ADDRESS</label>
+                    <input type="email" id="email-addr" name="email" placeholder="you@example.com" required>
+                </div>
+
+                <div class="field-group">
+                    <label for="package-choice">PREFERRED PACKAGE</label>
+                    <select id="package-choice" name="package">
+                        <option value="puerto-galera">Puerto Galera Island Escape (&#8369;4,500)</option>
+                        <option value="apo-reef">Apo Reef Adventure (&#8369;6,200)</option>
+                        <option value="mindoro-nature">Mindoro Nature Discovery (&#8369;3,200)</option>
+                    </select>
+                </div>
+
+                <div class="field-group">
+                    <label for="travel-date">TARGET TRAVEL DATE</label>
+                    <input type="date" id="travel-date" name="travel_date">
+                </div>
+
+                <div class="field-group">
+                    <label for="guests">NUMBER OF TRAVELERS</label>
+                    <input type="number" id="guests" name="guests" min="1" value="2">
+                </div>
+
+                <div class="field-group">
+                    <label for="message">NOTES OR QUESTIONS</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell us about your group, preferred dates, or questions..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-inquiry-btn">Submit Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>LAKBAY ISLA TRAVEL CO.</h3>
+                <p>Calapan City, Oriental Mindoro, Philippines &middot; Founded 2020</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="packages.html">Travel Packages</a>
+                <a href="about.html">About Us</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

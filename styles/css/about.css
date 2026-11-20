@@ -1,0 +1,116 @@
+@import url('index.css');
+
+.page-banner {
+    background: linear-gradient(var(--color-overlay), var(--color-overlay)),
+        url("/assets/images/lakbay-isla-img/Lakbay\ Isla\ Background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--color-text-light);
+    text-align: center;
+    padding: 5.5rem 2rem;
+}
+
+.page-banner span {
+    color: var(--color-accent-light);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.page-banner h1 {
+    font-family: var(--font-heading);
+    font-size: 3.2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+}
+
+.page-banner p {
+    color: var(--color-border);
+}
+
+.story-section {
+    padding: 4.5rem 9rem 2rem 9rem;
+}
+
+.story-card {
+    background: var(--color-bg-soft);
+    border: 1px solid var(--color-border);
+    border-radius: 20px;
+    padding: 2.5rem;
+}
+
+.story-card span {
+    color: var(--color-primary);
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+
+.story-card h2 {
+    font-family: var(--font-heading);
+    color: var(--color-navy-dark);
+    font-size: 2.2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.story-card p {
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin-bottom: 0.9rem;
+}
+
+.values-section,
+.team-section {
+    padding: 3.5rem 9rem;
+}
+
+.values-grid,
+.team-grid {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.value-box,
+.team-card {
+    flex: 1;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 1.75rem;
+}
+
+.value-box h3,
+.team-card h3 {
+    font-family: var(--font-heading);
+    color: var(--color-navy-dark);
+    font-size: 1.25rem;
+    margin-bottom: 0.4rem;
+}
+
+.team-card span {
+    display: inline-block;
+    color: var(--color-primary);
+    font-size: 0.82rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.value-box p,
+.team-card p {
+    color: var(--color-text-muted);
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+    .story-section,
+    .values-section,
+    .team-section {
+        padding: 2.5rem 2rem;
+    }
+
+    .values-grid,
+    .team-grid {
+        flex-direction: column;
+    }
+}
